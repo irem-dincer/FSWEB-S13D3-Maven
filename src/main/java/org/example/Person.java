@@ -21,7 +21,7 @@ public class Person {
     }
 
     public Person(String firstName, String lastName , int age, String job, String location , String nationality) {
-        this(firstName,lastName,age);
+        this(firstName,lastName,age); //constructor chaining
         this.job=job;
         this.location=location;
         this.nationality=nationality;

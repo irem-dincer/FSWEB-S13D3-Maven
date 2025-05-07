@@ -7,5 +7,17 @@ public class Main {
         System.out.println("Firstname: " + person.firstName +"," +" "+  "LastName: " + person.lastName);
         System.out.println("Age: " + person.age +"," +" "+ "Job: " + person.job);
         System.out.println("Location: " + person.location +"," + " "+ "Nationality: " + person.nationality);
+
+        Wall wall = new Wall(5,4);
+
+        System.out.println("area= " + wall.getArea());
+
+        wall.setHeight(-1.5);
+
+        System.out.println("width= " + wall.getWidth());
+
+        System.out.println("height= " + wall.getHeight());
+
+        System.out.println("area= " + wall.getArea());
     }
 }
